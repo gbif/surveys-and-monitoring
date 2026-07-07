@@ -1,1 +1,4 @@
+Data publishing templates for survey and monitoring data.
 
+*Data Model*
+Eventually this folder will contain templates for Darwin Core Archives (DwC-A) and Darwin Core Data Packages (DwC-DP). Each file will denote the data model to which they apply with '_A' or '_DP' at the end of the file name.
