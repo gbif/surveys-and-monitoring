@@ -1,4 +1,4 @@
-# surveys-and-monitoring
+# Biological surveys and monitoring
 This is the central repository for resources supporting mobilization of biological survey and monitoring (SAM) data into GBIF. The primary survey and monitoring data hub is available at https://www.gbif.org/sam.
 
 ## Directories:
