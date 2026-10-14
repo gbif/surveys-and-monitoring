@@ -1,6 +1,8 @@
 # surveys-and-monitoring
 Central repository and discussion hub for biological survey and monitoring data in GBIF.
 
+Survey and monitoring data helpdesk: sam@gbif.org
+Survey and monitoring data hub: https://www.gbif.org/sam
 
 Directories:
 * Crosswalks: Directory to store data crosswalks to Darwin Core.
