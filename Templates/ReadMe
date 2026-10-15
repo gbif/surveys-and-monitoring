@@ -1,3 +1,4 @@
+# Templates
 Data publishing templates for standardizing and publishing biological survey and monitoring data to GBIF
 
 This directory contains templates for publishing biological survey and monitoring data to using the Darwin Core data standard. Eventually there will be subdirectories to templates for both data models: Darwin Core Archives (DwC-A) and Darwin Core Data Packages (DwC-DP). Each directory will denote the data model to which they apply with 'DwC-A_' or 'DwC-DP_' at the start of the directory name. Only DwC-A templates are available currently; DwC-DP templates will be added when available.
