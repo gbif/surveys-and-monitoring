@@ -1,0 +1,53 @@
+,GBIF IPT Template:
+,Sampling Event Data 
+,
+,
+,
+,
+Sheet Name,Purpose
+survey,"This table is used to capture survey event information including survey design, protocol(s), scopes, and effort. Terms from both Darwin Core Event class (https://rs.gbif.org/core/dwc_event_2024-02-19.xml) and the Humboldt extension (https://rs.gbif.org/extension/eco/Humboldt_2024-04-16.xml) are included. 
+
+     - Row 1: Identfies the general categories of information that Darwin Core and Humboldt extension terms belong to.
+     - Row 2: Namespace abbreviation for a term -- 'dwc' for Darwin Core terms, 'eco' for Humboldt extension terms
+     - Row 3: Term name
+     - Row 4: Term definition
+     - Row 5: Term comments
+     - Row 6: Recommended usage for the term in GBIF --  REQUIRED (green), REQUIRED for nested hierarchies (green), RECOMMENDED (blue), and SHARE IF AVAILABLE (yellow). NOTE: The colors denoting this information may not be visible depending on the version of the template being used.
+     - Row 7: Usage comments -- additional comments or information about a term
+     - Row 8: Nested Hierarchies -- this provides general guidance on how to populate these terms across Event levels for nested Hierarchies. Generally,
+                    - Boolean terms (TRUE/FALSE): only populate terms at the relevant Event level; do not provide summary values at higher Event levels unless the value is applicable to all child Events of the parent Event.
+                    - Non-Boolean terms (all other terms): only populate terms at the relevant Event level; information in a child Event may be independent of its parent Events (except spatial and temporal scope)"
+,"NOTES:
+     - DwC Event class terms are not comprehensive and additional terms can be added as necessary.
+     - Columns can be reordered
+     - Items in a list should be separated using the pipe (“|”) character as a separator."
+occurrence,"This table is used to capture occurrence information with terms from the Darwin Core Occurrence extension (https://rs.gbif.org/core/dwc_occurrence_2024-02-23.xml). 
+
+     - Row 1: Term name
+     - Row 2: Term definition
+     - Row 3: Term comments
+     - Row 4: Recommended usage for the term in GBIF --  REQUIRED (green), REQUIRED for nested hierarchies (green), RECOMMENDED (blue), and SHARE IF AVAILABLE (yellow). NOTE: The colors denoting this information may not be visible depending on the version of the template being used.
+     - Row 5: Usage comments -- additional comments or information about a term"
+emof,"Extended Measurement Or Facts extension (emof)
+This table is used to capture additional information with terms from the extended measurement or faces extension (https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml). Information shared through emof can be linked either to a unique Darwin Core event or occurrence via the appropriate dwc:eventID or dwc:occurrenceID.
+
+     - Row 1: Term name
+     - Row 2: Term definition
+     - Row 3: Recommended usage for the term in GBIF --  REQUIRED (green), RECOMMENDED (blue), and SHARE IF AVAILABLE (yellow). NOTE: The colors denoting this information may not be visible depending on the version of the template being used.
+     - Row 4: Usage comments -- additional comments or information about a term
+
+The most commonly utilized emof terms are provided in the table. Additional terms are available at https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml and include: measurementID, measurementTypeID, measurementValueID, and measurementUnitID. "
+releve,"Relevé extension
+This table is used to capture Relevé or other vegetation plot information with terms from the Relevé extension (https://rs.gbif.org/extension/gbif/1.0/releve_2016-05-10.xml). Relevé's should be linked to a single Darwin Core Event using the appropriate dwc:eventID. 
+
+     - Row 1: Term name
+     - Row 2: Term definition
+     - Row 3: Recommended usage for the term in GBIF --  REQUIRED (green), RECOMMENDED (blue), and SHARE IF AVAILABLE (yellow). NOTE: The colors denoting this information may not be visible depending on the version of the template being used.
+     - Row 4: Usage comments -- additional comments or information about a term"
+resourceRelationship,"Resource relationship extension
+This table is used to capture relationships between resources using the resource relationship extension https://rs.gbif.org/extension/dwc/resource_relationship_2025-07-10.xml
+
+     - Row 1: Term name
+     - Row 2: Term definition
+     - Row 3: Recommended usage for the term in GBIF --  REQUIRED (green), RECOMMENDED (blue), and SHARE IF AVAILABLE (yellow). NOTE: The colors denoting this information may not be visible depending on the version of the template being used.
+     - Row 4: Usage comments -- additional comments or information about a term"
