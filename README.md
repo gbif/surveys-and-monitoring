@@ -4,7 +4,7 @@ This is the central repository for resources supporting mobilization of biologic
 ## Directories:
 * Crosswalks: Directory to store data crosswalks to Darwin Core.
 * Documents: Documentation, publications, etc. relevant to publishing survey and monitoring data using the Darwin Core data standard.
-* Resources/SAM-images: Images used in the Good SAMaritans blog series (https://data-blog.gbif.org/tags/sam/).
+* Resources: Images and data used in the Good SAMaritans blog series (https://data-blog.gbif.org/tags/sam/).
 * Templates: Templates for capturing biodiversity survey and monitoring data in Darwin Core. 
 
 ## Contact
