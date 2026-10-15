@@ -1,1 +1,11 @@
+Template files for the full DwC-A Event core publishing model for biological survey and monitoring data.
 
+
+## Files
+* DwC-A_Survey_TEMPLATE.xlsx: Excel spreadsheet containing the ReadMe file and each table in the template as indibidual tabs.
+* DwC-A_Survey_TEMPLATE_README.csv: Template ReadMe as .csv
+* DwC-A_Survey_TEMPLATE_emof.csv: Extended measurements or facts extension (emof; https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml) table as .csv
+* DwC-A_Survey_TEMPLATE_occurrence.csv: Occurrence extension (https://rs.gbif.org/core/dwc_occurrence_2025-07-10.xml) table as .csv 
+* DwC-A_Survey_TEMPLATE_releve.csv: Relevé extension (https://rs.gbif.org/extension/gbif/1.0/releve_2016-05-10.xml) table as .csv 
+* DwC-A_Survey_TEMPLATE_resourceRelationship.csv: Resource relationship extension (https://rs.gbif.org/extension/dwc/resource_relationship_2025-07-10.xml) table as .csv file
+* DwC-A_Survey_TEMPLATE_survey.csv: Survey table, containg Event core (https://rs.gbif.org/core/dwc_event_2025-07-10.xml) and Humboldt extension (https://rs.gbif.org/extension/eco/humboldt_2025-07-10.xml) terms as .csv 
