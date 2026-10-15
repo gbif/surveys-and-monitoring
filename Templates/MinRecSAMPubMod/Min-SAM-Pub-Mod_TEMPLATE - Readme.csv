@@ -1,0 +1,44 @@
+,Minimum DwC Data Publishing Model
+,Survey & Monitoring data
+,
+,"Terms were selected based on the fact that minimum a data user should be able to do with a survey or monitoring dataset is to infer absence information. 
+
+In order to infer non-detection (absence) of an organism during a survey with some degree of confidence, we need to know: "
+,"- Location
+- Date-time
+- Scope
+- Completeness
+- Survey design
+- Protocol(s)
+- Sampling effort
+"
+,
+Sheet Name,Purpose
+survey,"This table is used to capture survey event information including survey design, protocol(s), scopes, and effort. Terms from both Darwin Core Event class (https://rs.gbif.org/core/dwc_event_2024-02-19.xml) and the Humboldt extension (https://rs.gbif.org/extension/eco/Humboldt_2024-04-16.xml) are included. 
+
+     - Row 1: Identfies the general categories of information that Darwin Core and Humboldt extension terms belong to.
+     - Row 2: Namespace abbreviation for a term -- 'dwc' for Darwin Core terms, 'eco' for Humboldt extension terms
+     - Row 3: Term name
+     - Row 4: Term definition
+     - Row 5: Term comments
+     - Row 6: Usage comments -- additional comments or information about a term
+     - Row 7: Example data entry"
+,"NOTES:
+     - DwC Event class terms are not comprehensive and additional terms can be added as necessary.
+     - Columns can be reordered
+     - Items in a list should be separated using the pipe (“|”) character as a separator."
+occurrence,"This table is used to capture occurrence information with terms from the Darwin Core Occurrence extension (https://rs.gbif.org/core/dwc_occurrence_2024-02-23.xml). 
+
+     - Row 1: Term name
+     - Row 2: Term definition
+     - Row 3: Term comments
+     - Row 4: Usage comments -- additional comments or information about a term"
+emof,"Extended Measurement Or Facts extension (emof)
+This table is used to capture additional information with terms from the extended measurement or faces extension (https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml). Information shared through emof can be linked either to a unique Darwin Core event or occurrence via the appropriate dwc:eventID or dwc:occurrenceID.
+
+     - Row 1: Term name
+     - Row 2: Term definition
+     - Row 3: Usage comments -- additional comments or information about a term
+
+The most commonly utilized emof terms are provided in the table. Additional terms are available at https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml and include: measurementID, measurementTypeID, measurementValueID, and measurementUnitID. "
+event_additionalTerms,Additional Event core and Humboldt extension terms that can moved to the event table for use as necessary.
